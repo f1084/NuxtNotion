@@ -1,12 +1,17 @@
-<p>
+<p align="center">
   <a href="https://github.com/f1084/NuxtNotion" target="_blank">
-    <img src="./public/LOGO.svg" width="120" alt="NuxtNotion Logo">
-    <br>
+    <img src="./public/LOGO.svg" width="120" alt="NuxtNotion Logo"> 
     <span>NuxtNotion</span>
   </a>
 </p>
 
-使用 Nuxt 3、Tailwind CSS 和 Notion API 构建的现代化博客网站。
+# NuxtNotion - 现代化博客网站
+
+体验地址：[https://nuxtnotion.cn](https://nuxtnotion.cn)
+
+## 📝 Introduction
+
+基于 Nuxt3 和 Notion API 构建的现代化博客系统，提供更优雅的用户体验。
 
 ## ✨ 功能特性
 

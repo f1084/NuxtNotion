@@ -1,14 +1,17 @@
-<p>
+<p align="center">
   <a href="https://github.com/f1084/NuxtNotion" target="_blank">
-    <img src="./public/LOGO.svg" width="120" alt="NuxtNotion Logo">
-    <br>
+    <img src="./public/LOGO.svg" width="60" alt="NuxtNotion Logo"> 
     <span>NuxtNotion</span>
   </a>
 </p>
 
-# NuxtNotion - Modern Blog Platform
+# NuxtNotion - Modern Blog Website
 
-A Nuxt 3 blog platform with Notion API, Vue 3, Tailwind CSS, and Gitalk for comment system.
+Link：[https://nuxtnotion.cn](https://nuxtnotion.cn)
+
+## 📝 Introduction
+
+NuxtNotion is a modern blog platform built with Nuxt3, Vue3, Tailwind CSS, and Notion API. It provides a clean, responsive, and feature-rich blog experience.
 
 ## ✨ Features
 
