@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4 py-12">
         <div class="max-w-4xl mx-auto text-center">
           <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent mb-4">
-            NuxtNotion 开发指南
+            NuxtNotion 使用指南
           </h1>
           <p class="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             了解如何使用 Notion API 构建现代化的博客系统，从基础概念到高级功能的完整指南

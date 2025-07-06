@@ -31,7 +31,8 @@
         <div class="relative mb-8">
           <!-- Notion 图标 - 右上 -->
           <div
-            class="absolute -top-8 right-8 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 glassmorphism-card notion-glow flex items-center justify-center animate-tech-float animation-delay-0 hover:scale-110 transition-all duration-300">
+            @click="handleTechIconClick('notion')"
+            class="absolute -top-8 right-8 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 glassmorphism-card notion-glow flex items-center justify-center animate-tech-float animation-delay-0 hover:scale-110 transition-all duration-300 cursor-pointer">
             <svg class="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10" viewBox="0 0 24 24">
               <defs>
                 <linearGradient id="notionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -60,11 +61,11 @@
           </p>
           <!-- 按钮组 -->
           <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
-            <AppButton variant="primary" size="large" @click="$emit('primaryAction')"
+            <AppButton variant="primary" size="large" @click="handlePrimaryAction"
               class="w-full sm:w-auto shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition-all duration-300">
               {{ primaryButtonText }}
             </AppButton>
-            <AppButton variant="outline" size="large" @click="$emit('secondaryAction')"
+            <AppButton variant="outline" size="large" @click="handleSecondaryAction"
               class="w-full sm:w-auto hover:scale-105 transition-all duration-300">
               {{ secondaryButtonText }}
             </AppButton>
@@ -76,6 +77,9 @@
 </template>
 
 <script setup>
+// 引入 Microsoft Clarity composable
+const { trackEvent } = useClarity()
+
 defineProps({
   title: {
     type: String,
@@ -99,7 +103,38 @@ defineProps({
   }
 })
 
-defineEmits(['primaryAction', 'secondaryAction'])
+const emit = defineEmits(['primaryAction', 'secondaryAction'])
+
+// 处理主要按钮点击
+const handlePrimaryAction = () => {
+  // 跟踪 Clarity 事件
+  trackEvent('hero_primary_button_click', {
+    button_text: '开始阅读',
+    section: 'hero'
+  })
+  
+  emit('primaryAction')
+}
+
+// 处理次要按钮点击
+const handleSecondaryAction = () => {
+  // 跟踪 Clarity 事件
+  trackEvent('hero_secondary_button_click', {
+    button_text: '了解更多',
+    section: 'hero'
+  })
+  
+  emit('secondaryAction')
+}
+
+// 处理技术图标点击
+const handleTechIconClick = (techName) => {
+  // 跟踪 Clarity 事件
+  trackEvent('tech_icon_click', {
+    technology: techName,
+    section: 'hero'
+  })
+}
 </script>
 
 <style scoped>

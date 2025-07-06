@@ -10,7 +10,7 @@
               NuxtNotion</h3>
           </div>
           <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-            基于 Nuxt3 和 Notion API 构建的现代化博客系统，提供优雅的阅读体验。
+            基于 Nuxt3 和 Notion API 构建的现代化博客系统，提供更优雅的用户体验。
           </p>
         </div>
 

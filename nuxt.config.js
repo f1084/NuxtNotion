@@ -48,7 +48,8 @@ export default defineNuxtConfig({
     gitalkRepository: process.env.GITALK_REPOSITORY,
     gitalkOwner: process.env.GITALK_OWNER,
     public: {
-      // 如果需要在客户端访问某些配置
+      // Microsoft Clarity 项目 ID
+      clarityProjectId: process.env.CLARITY_PROJECT_ID
     }
   }
 })

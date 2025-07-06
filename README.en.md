@@ -1,6 +1,8 @@
-<p align="center">
+<p>
   <a href="https://github.com/f1084/NuxtNotion" target="_blank">
-    <img src="./public/LOGO.svg" width="180" alt="NuxtNotion Logo">
+    <img src="./public/LOGO.svg" width="120" alt="NuxtNotion Logo">
+    <br>
+    <span>NuxtNotion</span>
   </a>
 </p>
 
