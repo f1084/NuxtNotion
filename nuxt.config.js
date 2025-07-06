@@ -43,6 +43,10 @@ export default defineNuxtConfig({
     // 构建时环境变量
     notionApiKey: process.env.NOTION_API_KEY,
     notionDatabaseId: process.env.NOTION_DATABASE_ID,
+    gitalkClientId: process.env.GITALK_CLIENT_ID,
+    gitalkClientSecret: process.env.GITALK_CLIENT_SECRET,
+    gitalkRepository: process.env.GITALK_REPOSITORY,
+    gitalkOwner: process.env.GITALK_OWNER,
     public: {
       // 如果需要在客户端访问某些配置
     }

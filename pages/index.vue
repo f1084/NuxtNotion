@@ -8,7 +8,7 @@
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 sm:mb-16">
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-3 sm:mb-4">
-            开始构建您的网站所需的一切</h2>
+            开始构建博客网站所需的一切</h2>
           <p class="text-base sm:text-lg lg:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto px-4">
             Nuxt 3 提供了最佳的开发体验，集成了最先进的工具和创新功能。
           </p>

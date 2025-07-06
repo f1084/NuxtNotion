@@ -90,4 +90,14 @@ onMounted(async () => {
 :deep(.gt-comment-header) {
   @apply border-b border-gray-200 dark:border-gray-700;
 }
+
+:deep(.gt-header-textarea) {
+  @apply bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 ;
+}
+:deep(.gt-header-textarea:focus) {
+  @apply bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 ;
+}
+:deep(.gt-header-textarea:hover) {
+  @apply bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 ;
+}
 </style>

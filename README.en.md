@@ -4,7 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">NuxtNotion</h1>
 # NuxtNotion - Modern Blog Platform
 
 A Nuxt 3 blog platform with Notion API, Vue 3, Tailwind CSS, and Gitalk for comment system.

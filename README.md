@@ -4,8 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">NuxtNotion</h1>
-
 使用 Nuxt 3、Tailwind CSS 和 Notion API 构建的现代化博客网站。
 
 ## ✨ 功能特性
